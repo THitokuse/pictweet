@@ -21,8 +21,8 @@
 |password|varchar(255)|null: false|
 
 ### Association
--has_many :tweets
--has_many :comments
+- has_many :tweets
+- has_many :comments
 
 ## commentsテーブル
 |Column|Type|Option|
@@ -33,5 +33,5 @@
 |tweet_id|integer(11)|null: false|
 
 ### Association
--be :tweets
--has_many :comments
+- belongs_to :tweets
+- has_many :comments
