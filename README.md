@@ -8,9 +8,9 @@
 |user_id|integer(11)|null: false, foreign_key: true|
 
 ### Association
--belongs_to :user
--has_many :comments
--has_many :photos
+- belongs_to :user
+- has_many :comments
+- has_many :photos
 
 ## usersテーブル
 |Column|Type|Option|
